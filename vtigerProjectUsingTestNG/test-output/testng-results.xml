@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="16" total="21" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T09:56:53 IST" name="Suite" finished-at="2024-07-02T10:01:01 IST" duration-ms="248458">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateProductAndDeleteProductTestt.createProductAndDeleteProductTest()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" name="createProductAndDeleteProductTest" class="product.CreateProductAndDeleteProductTestt"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateCampaignWithProductUsingPropertiesAndExcelFileTestt.createCampaignWithProductUsingPropertiesAndExcelFileTest()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" name="createCampaignWithProductUsingPropertiesAndExcelFileTest" class="Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt"/>
+        <method signature="CreateProductAndDeleteProductTestt.createProductAndDeleteProductTest()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" name="createProductAndDeleteProductTest" class="product.CreateProductAndDeleteProductTestt"/>
+        <method signature="createOrganizationUsingPropertiesAndExcelFileTest.createOrganizationUsingPropertiesAndExcelFileTestt()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" name="createOrganizationUsingPropertiesAndExcelFileTestt" class="organization.createOrganizationUsingPropertiesAndExcelFileTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-07-02T09:56:53 IST" name="Test" finished-at="2024-07-02T10:01:01 IST" duration-ms="248458">
+      <class name="Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" started-at="2024-07-02T09:58:59 IST" name="bc" finished-at="2024-07-02T09:59:03 IST" duration-ms="3705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" started-at="2024-07-02T09:59:03 IST" name="bm" finished-at="2024-07-02T09:59:12 IST" duration-ms="9323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createCampaignWithProductUsingPropertiesAndExcelFileTest()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" started-at="2024-07-02T09:59:12 IST" name="createCampaignWithProductUsingPropertiesAndExcelFileTest" finished-at="2024-07-02T09:59:53 IST" duration-ms="40693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithProductUsingPropertiesAndExcelFileTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" started-at="2024-07-02T09:59:53 IST" name="am" finished-at="2024-07-02T09:59:55 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt@74f0ea28]" started-at="2024-07-02T09:59:55 IST" name="ac" finished-at="2024-07-02T09:59:58 IST" duration-ms="2561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Campaign.CreateCampaignWithProductUsingPropertiesAndExcelFileTestt -->
+      <class name="Campaign.createcampaignTest">
+        <test-method is-config="true" signature="bc()[pri:0, instance:Campaign.createcampaignTest@f6efaab]" started-at="2024-07-02T09:59:58 IST" name="bc" finished-at="2024-07-02T10:00:03 IST" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:Campaign.createcampaignTest@f6efaab]" started-at="2024-07-02T10:00:03 IST" name="bm" finished-at="2024-07-02T10:00:10 IST" duration-ms="7290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="CreateCampaignTest()[pri:0, instance:Campaign.createcampaignTest@f6efaab]" started-at="2024-07-02T10:00:10 IST" name="CreateCampaignTest" finished-at="2024-07-02T10:00:28 IST" duration-ms="18026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:Campaign.createcampaignTest@f6efaab]" started-at="2024-07-02T10:00:28 IST" name="am" finished-at="2024-07-02T10:00:30 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:Campaign.createcampaignTest@f6efaab]" started-at="2024-07-02T10:00:30 IST" name="ac" finished-at="2024-07-02T10:00:31 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Campaign.createcampaignTest -->
+      <class name="product.CreateProductUsingPropertiesAndExcelFileTestt">
+        <test-method is-config="true" signature="bs()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:56:53 IST" name="bs" finished-at="2024-07-02T09:56:53 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:56:53 IST" name="bt" finished-at="2024-07-02T09:56:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="bc()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:56:53 IST" name="bc" finished-at="2024-07-02T09:57:10 IST" duration-ms="16888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:57:10 IST" name="bm" finished-at="2024-07-02T09:57:19 IST" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createProductUsingPropertiesAndExcelFileTest()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:57:19 IST" name="createProductUsingPropertiesAndExcelFileTest" finished-at="2024-07-02T09:57:46 IST" duration-ms="26997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductUsingPropertiesAndExcelFileTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:57:46 IST" name="am" finished-at="2024-07-02T09:57:50 IST" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T09:57:50 IST" name="ac" finished-at="2024-07-02T09:57:59 IST" duration-ms="8682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+        <test-method is-config="true" signature="at()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T10:01:01 IST" name="at" finished-at="2024-07-02T10:01:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- at -->
+        <test-method is-config="true" signature="as()[pri:0, instance:product.CreateProductUsingPropertiesAndExcelFileTestt@1bd4fdd]" started-at="2024-07-02T10:01:02 IST" name="as" finished-at="2024-07-02T10:01:02 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- product.CreateProductUsingPropertiesAndExcelFileTestt -->
+      <class name="organization.createOrganizationUsingPropertiesAndExcelFileTest">
+        <test-method is-config="true" signature="bc()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" started-at="2024-07-02T10:00:31 IST" name="bc" finished-at="2024-07-02T10:00:33 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" started-at="2024-07-02T10:00:33 IST" name="bm" finished-at="2024-07-02T10:00:41 IST" duration-ms="8403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createOrganizationUsingPropertiesAndExcelFileTestt()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" started-at="2024-07-02T10:00:41 IST" name="createOrganizationUsingPropertiesAndExcelFileTestt" finished-at="2024-07-02T10:00:54 IST" duration-ms="13183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationUsingPropertiesAndExcelFileTestt -->
+        <test-method is-config="true" signature="am()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" started-at="2024-07-02T10:00:54 IST" name="am" finished-at="2024-07-02T10:01:01 IST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:organization.createOrganizationUsingPropertiesAndExcelFileTest@3c19aaa5]" started-at="2024-07-02T10:01:01 IST" name="ac" finished-at="2024-07-02T10:01:01 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- organization.createOrganizationUsingPropertiesAndExcelFileTest -->
+      <class name="product.CreateProductAndDeleteProductTestt">
+        <test-method is-config="true" signature="bc()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" started-at="2024-07-02T09:57:59 IST" name="bc" finished-at="2024-07-02T09:58:02 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method is-config="true" signature="bm()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" started-at="2024-07-02T09:58:02 IST" name="bm" finished-at="2024-07-02T09:58:10 IST" duration-ms="7971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method signature="createProductAndDeleteProductTest()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" started-at="2024-07-02T09:58:10 IST" name="createProductAndDeleteProductTest" finished-at="2024-07-02T09:58:52 IST" duration-ms="41399" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='lvt small']/tbody/tr//td//a[text()='Puma374']/../preceding-sibling::td//input[@type='checkbox']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b59af8f4f996c399008ab5b15e0ddc4, findElement {value=//table[@class='lvt small']/tbody/tr//td//a[text()='Puma374']/../preceding-sibling::td//input[@type='checkbox'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\karan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64111}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64111/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b59af8f4f996c399008ab5b15e0ddc4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table[@class='lvt small']/tbody/tr//td//a[text()='Puma374']/../preceding-sibling::td//input[@type='checkbox']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b59af8f4f996c399008ab5b15e0ddc4, findElement {value=//table[@class='lvt small']/tbody/tr//td//a[text()='Puma374']/../preceding-sibling::td//input[@type='checkbox'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\karan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64111}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64111/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b59af8f4f996c399008ab5b15e0ddc4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at objectRepositoryVtiger.vtigerDeleteProductPage.deleteProduct(vtigerDeleteProductPage.java:22)
+at product.CreateProductAndDeleteProductTestt.createProductAndDeleteProductTest(CreateProductAndDeleteProductTestt.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductAndDeleteProductTest -->
+        <test-method is-config="true" signature="am()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" started-at="2024-07-02T09:58:53 IST" name="am" finished-at="2024-07-02T09:58:56 IST" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method is-config="true" signature="ac()[pri:0, instance:product.CreateProductAndDeleteProductTestt@1283bb96]" started-at="2024-07-02T09:58:56 IST" name="ac" finished-at="2024-07-02T09:58:59 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- product.CreateProductAndDeleteProductTestt -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
