@@ -46,6 +46,9 @@ import objectRepositoryVtiger.vtigerLoginPage;
 		public void bc() throws Throwable
 		{
 			 String BROWSER = fileLib.getKeyAndValueData("browser");
+			//Reading from cmd
+	//	String BROWSER = System.getProperty("browser");
+			
 				if (BROWSER.equalsIgnoreCase("chrome"))
 				{
 					WebDriverManager.chromedriver().setup();
@@ -72,6 +75,11 @@ import objectRepositoryVtiger.vtigerLoginPage;
 			String URL = fileLib.getKeyAndValueData("url");
 			String UN = fileLib.getKeyAndValueData("userName");
 			String PWD = fileLib.getKeyAndValueData("password");
+			
+			//calling from cmd
+//		String URL = System.getProperty("url");
+//		String USERNAME = System.getProperty("username");
+//		String PASSWORD = System.getProperty("password");
 			
 			webLib.maximizeWindow(driver);
 			webLib.WaitForElementToLoad(driver);
